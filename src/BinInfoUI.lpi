@@ -16,8 +16,21 @@
         <Resource_0 FileName="bininfo.ico" Type="ICON" ResourceName="BININFO"/>
       </Resources>
     </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MajorVersionNr Value="1"/>
+      <MinorVersionNr Value="6"/>
+      <StringTable Comments="Binary file information and analysis" FileDescription="Binary file information and analysis" ProductName="bininfoui"/>
+    </VersionInfo>
+    <MacroValues Count="1">
+      <Macro1 Name="LCLWidgetType" Value="qt5"/>
+    </MacroValues>
     <BuildModes>
       <Item Name="Default" Default="True"/>
+      <SharedMatrixOptions Count="2">
+        <Item1 ID="264071158507" Modes="Default" Type="IDEMacro" MacroName="LCLWidgetType" Value="qt5"/>
+        <Item2 ID="840074198794" Type="IDEMacro" MacroName="LCLWidgetType" Value="qt6"/>
+      </SharedMatrixOptions>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
@@ -53,6 +66,7 @@
         <Filename Value="formabout.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormAbout"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="FormAbout"/>
       </Unit>
@@ -68,8 +82,15 @@
       <Libraries Value="/usr/lib/x86_64-linux-gnu/"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
+    <CodeGeneration>
+      <Optimizations>
+        <OptimizationLevel Value="2"/>
+      </Optimizations>
+    </CodeGeneration>
     <Linking>
       <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <RunWithoutDebug Value="True"/>
         <DebugInfoType Value="dsDwarf3"/>
       </Debugging>
       <Options>

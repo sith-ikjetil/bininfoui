@@ -1,11 +1,14 @@
 object FormAbout: TFormAbout
   Left = 447
-  Height = 396
+  Height = 450
   Top = 30
   Width = 465
+  BorderStyle = bsSingle
   Caption = 'FormAbout'
-  ClientHeight = 396
+  ClientHeight = 450
   ClientWidth = 465
+  Color = clWhite
+  FormStyle = fsStayOnTop
   LCLVersion = '4.4.0.0'
   object ImageAbout: TImage
     Left = 112
@@ -36986,11 +36989,12 @@ object FormAbout: TFormAbout
     }
     Proportional = True
     Stretch = True
+    StretchOutEnabled = False
   end
   object LabelAppName: TLabel
-    Left = 200
+    Left = 208
     Height = 18
-    Top = 232
+    Top = 280
     Width = 55
     Caption = 'bininfoui'
   end
@@ -37009,14 +37013,21 @@ object FormAbout: TFormAbout
     Caption = 'Binary information utility using libbininfo'
   end
   object ButtonOK: TButton
-    Left = 189
+    Left = 192
     Height = 32
-    Top = 359
+    Top = 392
     Width = 88
     Cancel = True
     Caption = 'OK'
     Default = True
     ModalResult = 1
     TabOrder = 0
+  end
+  object LabelTribute: TLabel
+    Left = 80
+    Height = 18
+    Top = 352
+    Width = 319
+    Caption = 'Created by Kjetil Kristoffer Solberg <post@ikjetil.no>'
   end
 end

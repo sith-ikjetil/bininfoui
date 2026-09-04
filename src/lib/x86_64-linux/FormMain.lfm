@@ -1,11 +1,12 @@
 object FormMain: TFormMain
   Left = 710
-  Height = 488
+  Height = 610
   Top = 30
-  Width = 470
+  Width = 588
   Caption = 'bininfoui'
-  ClientHeight = 458
-  ClientWidth = 470
+  ClientHeight = 610
+  ClientWidth = 588
+  DesignTimePPI = 120
   Icon.Data = {
     ED8700000000010001000000000001002000D78700001600000089504E470D0A
     1A0A0000000D49484452000001000000010008060000005C72A8660000879E49
@@ -1097,44 +1098,46 @@ object FormMain: TFormMain
     BF46833AC00000000049454E44AE426082
   }
   Menu = MainMenu
-  LCLVersion = '4.4.0.0'
+  LCLVersion = '4.8.0.0'
   OnCreate = FormCreate
   OnResize = FormResize
   object ButtonAnalyzeFile: TButton
-    Left = 352
-    Height = 33
-    Top = 24
-    Width = 111
+    Left = 440
+    Height = 41
+    Top = 30
+    Width = 139
     Caption = 'Open File...'
     TabOrder = 0
     OnClick = ButtonAnalyzeFileClick
   end
   object EditAnalyzeFile: TEdit
-    Left = 8
-    Height = 32
-    Top = 25
-    Width = 336
+    Left = 10
+    Height = 31
+    Top = 31
+    Width = 420
     ReadOnly = True
     TabOrder = 1
   end
   object MemoAnalyzeResult: TMemo
-    Left = 8
-    Height = 338
-    Top = 144
-    Width = 453
+    Left = 10
+    Height = 422
+    Top = 180
+    Width = 566
     Lines.Strings = (
       'MemoAnalyzeResult'
     )
+    ParentShowHint = False
     ScrollBars = ssAutoBoth
     TabOrder = 2
+    WordWrap = False
     OnContextPopup = MemoAnalyzeResultContextPopup
   end
   object ComboBoxAnalyzeArgs: TComboBox
-    Left = 8
-    Height = 32
-    Top = 80
-    Width = 453
-    ItemHeight = 24
+    Left = 10
+    Height = 31
+    Top = 100
+    Width = 566
+    ItemHeight = 0
     ItemIndex = 0
     Items.Strings = (
       'default'
@@ -1149,43 +1152,44 @@ object FormMain: TFormMain
     Style = csDropDownList
     TabOrder = 3
     Text = 'default'
+    OnChange = ComboBoxAnalyzeArgsChange
   end
   object LabelFileName: TLabel
-    Left = 8
-    Height = 18
-    Top = 8
-    Width = 75
+    Left = 10
+    Height = 23
+    Top = 10
+    Width = 94
     Caption = 'Current File:'
   end
   object LabelOptions: TLabel
-    Left = 8
-    Height = 18
-    Top = 64
-    Width = 52
+    Left = 10
+    Height = 23
+    Top = 80
+    Width = 65
     Caption = 'Options:'
   end
   object LabelResult: TLabel
-    Left = 8
-    Height = 18
-    Top = 120
-    Width = 42
+    Left = 10
+    Height = 23
+    Top = 150
+    Width = 51
     Caption = 'Result:'
   end
   object OpenDialogAnalyzeFile: TOpenDialog
-    Left = 448
-    Top = 448
+    Left = 560
+    Top = 560
   end
   object PopupMenuAnalyzeResult: TPopupMenu
-    Left = 456
-    Top = 408
+    Left = 570
+    Top = 510
     object MenuItemCopy: TMenuItem
       Caption = 'Copy'
       OnClick = MenuItemCopyClick
     end
   end
   object MainMenu: TMainMenu
-    Left = 443
-    Top = 461
+    Left = 554
+    Top = 576
     object MenuItemRootFile: TMenuItem
       Caption = 'File'
       object MenuItemFileExit: TMenuItem

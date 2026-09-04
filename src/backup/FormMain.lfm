@@ -1149,6 +1149,7 @@ object FormMain: TFormMain
     Style = csDropDownList
     TabOrder = 3
     Text = 'default'
+    OnChange = ComboBoxAnalyzeArgsChange
   end
   object LabelFileName: TLabel
     Left = 8

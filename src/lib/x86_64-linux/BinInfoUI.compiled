@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <Compiler Value="/usr/bin/fpc" Date="1772209828"/>
-  <Params Value="-MObjFPC -Scghi -Cg -O1 -gw3 -gl -l -vewnhibq -Fi/home/kjetilso/Code/Pascal/BinInfoUI/lib/x86_64-linux -Fl/usr/lib/x86_64-linux-gnu -Fu/home/kjetilso/Code/Pascal/BinInfoUI/ -Fu/home/kjetilso/.lazarus/lib/units/x86_64-linux/qt5 -Fu/home/kjetilso/.lazarus/lib/LCLBase/units/x86_64-linux -Fu/home/kjetilso/.lazarus/lib/FreeTypeLaz/lib/x86_64-linux -Fu/usr/lib/lazarus/4.4/components/lazutils/lib/x86_64-linux -Fu/usr/lib/lazarus/4.4/packager/units/x86_64-linux -FU/home/kjetilso/Code/Pascal/BinInfoUI/lib/x86_64-linux/ -FE/home/kjetilso/Code/Pascal/BinInfoUI/ -o/home/kjetilso/Code/Pascal/BinInfoUI/bininfoui -dLCL -dLCLqt5 BinInfoUI.lpr"/>
+  <Compiler Value="/usr/bin/fpc" Date="1625802185"/>
+  <Params Value="-MObjFPC -Scghi -Cg -O2 -l -vewnhibq -Fi/home/kjetilso/Code/Pascal/bininfoui/src/lib/x86_64-linux -Fl/usr/lib/x86_64-linux-gnu -Fu/home/kjetilso/Code/Pascal/bininfoui/src/ -Fu/home/kjetilso/.lazarus/lib/units/x86_64-linux/qt5 -Fu/usr/share/lazarus/4.8.0/lcl/units/x86_64-linux -Fu/usr/share/lazarus/4.8.0/components/freetype/lib/x86_64-linux -Fu/usr/share/lazarus/4.8.0/components/lazutils/lib/x86_64-linux -Fu/usr/share/lazarus/4.8.0/packager/units/x86_64-linux -FU/home/kjetilso/Code/Pascal/bininfoui/src/lib/x86_64-linux/ -FE/home/kjetilso/Code/Pascal/bininfoui/src/ -o/home/kjetilso/Code/Pascal/bininfoui/src/bininfoui -dLCL -dLCLqt5 BinInfoUI.lpr"/>
 </CONFIG>

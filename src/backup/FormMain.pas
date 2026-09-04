@@ -5,7 +5,7 @@ unit FormMain;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtDlgs, StdCtrls,
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls,
   Menus, BinInfo, Types, Clipbrd, FormAbout;
 
 type
@@ -29,6 +29,7 @@ type
     OpenDialogAnalyzeFile: TOpenDialog;
     PopupMenuAnalyzeResult: TPopupMenu;
     procedure ButtonAnalyzeFileClick(Sender: TObject);
+    procedure ComboBoxAnalyzeArgsChange(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure FormResize(Sender: TObject);
     procedure MemoAnalyzeResultContextPopup(Sender: TObject; MousePos: TPoint;
@@ -85,6 +86,19 @@ begin
     bFileIsAnalyzed := true;
     EditAnalyzeFile.Text := OpenDialogAnalyzeFile.FileName;
     MemoAnalyzeResult.Text := AnalyzeFile(OpenDialogAnalyzeFile.FileName, GetIncExports(), GetIncImports(), GetIncSections());
+    MemoAnalyzeResult.PopupMenu := PopupMenuAnalyzeResult;
+  end;
+end;
+//
+// Procedure: TFormMain.ComboBoxAnalyzeArgsChange
+//
+// (i): ComboBox options change handler updating information.
+//
+procedure TFormMain.ComboBoxAnalyzeArgsChange(Sender: TObject);
+begin
+  if Length(EditAnalyzeFile.Text) > 0 then
+  begin
+    MemoAnalyzeResult.Text := AnalyzeFile(EditAnalyzeFile.Text, GetIncExports(), GetIncImports(), GetIncSections());
     MemoAnalyzeResult.PopupMenu := PopupMenuAnalyzeResult;
   end;
 end;
@@ -149,7 +163,11 @@ begin
   if not bFileIsAnalyzed then
     Handled := true;
 end;
-
+//
+// Procedure: TFormMain.MenuItemAboutClick
+//
+// (i): Creates and shows the about dialog.
+//
 procedure TFormMain.MenuItemAboutClick(Sender: TObject);
 var
   AboutForm: TFormAbout;
@@ -161,14 +179,15 @@ begin
     AboutForm.Free;
   end;
 end;
-
+//
+// Procedure: TFormMain.MenuItemFileExitClick
+//
+// (i): Terminates the application.
+//
 procedure TFormMain.MenuItemFileExitClick(Sender: TObject);
 begin
      Application.Terminate();
 end;
-
-
-
 //
 // Procedure: TFormMain.MenuItemCopyClick
 //

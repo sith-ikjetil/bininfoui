@@ -14,6 +14,7 @@ type
   TFormAbout = class(TForm)
     ButtonOK: TButton;
     ImageAbout: TImage;
+    LabelTribute: TLabel;
     LabelVersion: TLabel;
     LabelInfo: TLabel;
     LabelAppName: TLabel;

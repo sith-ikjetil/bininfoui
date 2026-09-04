@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, FormMain, MyTest, BinInfo, FormAbout;
+  Forms, FormMain, BinInfo, FormAbout;
 
 {$R *.res}
 
