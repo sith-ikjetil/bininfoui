@@ -1,0 +1,54 @@
+# Lazarus / Free Pascal compiled files
+*.o
+*.ppu
+*.a
+*.so
+*.so.*
+*.compiled
+
+# Lazarus project/session files
+*.lps
+*.lps.bak
+*.lpi.bak
+*.lfm.bak
+*.pas.bak
+
+# Lazarus backup files/directories
+backup/
+*.bak
+*~
+
+# Debug symbols / generated files
+*.dbg
+*.dSYM/
+*.map
+
+# Executables
+*.exe
+*.dll
+
+# Linux project executable
+# Add your actual executable name here, for example:
+BinInfoUI
+bininfoui
+
+# Lazarus lib output directory
+lib/
+lib/**
+
+# Common build directories
+build/
+bin/
+obj/
+
+# Core dumps
+core
+core.*
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
