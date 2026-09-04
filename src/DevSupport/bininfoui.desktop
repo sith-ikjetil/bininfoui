@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=bininfoui
+Comment=Binary file information and analysis
+Exec=bininfoui
+Icon=bininfo.png
+Type=Application
+Terminal=false
