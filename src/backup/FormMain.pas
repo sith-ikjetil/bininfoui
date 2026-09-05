@@ -21,6 +21,7 @@ type
     LabelFileName: TLabel;
     MainMenu: TMainMenu;
     MemoAnalyzeResult: TMemo;
+    MenuItemFileOpenFile: TMenuItem;
     MenuItemRootFile: TMenuItem;
     MenuItemRootHelp: TMenuItem;
     MenuItemAbout: TMenuItem;
@@ -28,6 +29,7 @@ type
     MenuItemCopy: TMenuItem;
     OpenDialogAnalyzeFile: TOpenDialog;
     PopupMenuAnalyzeResult: TPopupMenu;
+    Separator1: TMenuItem;
     procedure ButtonAnalyzeFileClick(Sender: TObject);
     procedure ComboBoxAnalyzeArgsChange(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -40,6 +42,8 @@ type
     function GetIncExports(): Boolean;
     function GetIncImports(): Boolean;
     function GetIncSections(): Boolean;
+    procedure MenuItemFileOpenFileClick(Sender: TObject);
+    procedure MenuItemRootFileClick(Sender: TObject);
   private
 
   public
@@ -226,6 +230,15 @@ end;
 function TFormMain.GetIncSections(): Boolean;
 begin
   Result := Pos('--include-sections', ComboBoxAnalyzeArgs.Text) > 0;
+end;
+//
+// Procedure: TFormMain.MenuItemFileOpenFileClick
+//
+// (i): Handles File>Open File... click.
+//
+procedure TFormMain.MenuItemFileOpenFileClick(Sender: TObject);
+begin
+  Self.ButtonAnalyzeFileClick(nil);
 end;
 
 

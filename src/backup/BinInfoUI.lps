@@ -8,7 +8,6 @@
         <Filename Value="BinInfoUI.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="bininfoui"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <CursorPos Y="28"/>
         <UsageCount Value="27"/>
@@ -20,7 +19,8 @@
         <ComponentName Value="FormMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <CursorPos X="58" Y="8"/>
+        <TopLine Value="14"/>
+        <CursorPos Y="46"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -41,6 +41,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="FormAbout"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="4" Y="28"/>
         <UsageCount Value="21"/>
@@ -56,38 +57,6 @@
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="FormMain.pas"/>
-        <Caret Line="114" Column="88" TopLine="95"/>
-      </Position>
-      <Position>
-        <Filename Value="FormMain.pas"/>
-        <Caret Line="121" Column="3" TopLine="89"/>
-      </Position>
-      <Position>
-        <Filename Value="FormMain.pas"/>
-        <Caret Line="104" Column="22" TopLine="79"/>
-      </Position>
-      <Position>
-        <Filename Value="FormMain.pas"/>
-        <Caret Line="93" Column="85" TopLine="62"/>
-      </Position>
-      <Position>
-        <Filename Value="FormMain.pas"/>
-        <Caret Line="201" Column="22" TopLine="157"/>
-      </Position>
-      <Position>
-        <Filename Value="FormMain.pas"/>
-        <Caret Line="9" Column="35"/>
-      </Position>
-      <Position>
-        <Filename Value="FormMain.pas"/>
-        <Caret Line="43" Column="28" TopLine="43"/>
-      </Position>
-      <Position>
-        <Filename Value="FormMain.pas"/>
-        <Caret Line="44" Column="28" TopLine="44"/>
-      </Position>
       <Position>
         <Filename Value="FormMain.pas"/>
         <Caret Line="45" Column="28" TopLine="45"/>
@@ -175,6 +144,38 @@
       <Position>
         <Filename Value="BinInfoUI.lpr"/>
         <Caret Line="28"/>
+      </Position>
+      <Position>
+        <Filename Value="FormMain.pas"/>
+        <Caret Line="8" Column="58"/>
+      </Position>
+      <Position>
+        <Filename Value="FormMain.pas"/>
+        <Caret Line="234" Column="3" TopLine="176"/>
+      </Position>
+      <Position>
+        <Filename Value="FormMain.pas"/>
+        <Caret Line="235" Column="3" TopLine="177"/>
+      </Position>
+      <Position>
+        <Filename Value="FormMain.pas"/>
+        <Caret Line="236" Column="3" TopLine="178"/>
+      </Position>
+      <Position>
+        <Filename Value="FormMain.pas"/>
+        <Caret Line="235" Column="3" TopLine="177"/>
+      </Position>
+      <Position>
+        <Filename Value="FormMain.pas"/>
+        <Caret Line="242" Column="3" TopLine="179"/>
+      </Position>
+      <Position>
+        <Filename Value="FormMain.pas"/>
+        <Caret Line="237" Column="41" TopLine="179"/>
+      </Position>
+      <Position>
+        <Filename Value="FormMain.pas"/>
+        <Caret Line="241" Column="34" TopLine="183"/>
       </Position>
     </JumpHistory>
     <RunParams>
