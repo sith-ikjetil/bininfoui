@@ -19,7 +19,7 @@
         <ComponentName Value="FormMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="14"/>
+        <TopLine Value="10"/>
         <CursorPos Y="46"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
