@@ -1160,6 +1160,8 @@ object FormMain: TFormMain
     Top = 10
     Width = 94
     Caption = 'Current File:'
+    Color = clBlack
+    ParentColor = False
   end
   object LabelOptions: TLabel
     Left = 10
@@ -1167,6 +1169,8 @@ object FormMain: TFormMain
     Top = 80
     Width = 65
     Caption = 'Options:'
+    Color = clBlack
+    ParentColor = False
   end
   object LabelResult: TLabel
     Left = 10
@@ -1174,6 +1178,8 @@ object FormMain: TFormMain
     Top = 150
     Width = 51
     Caption = 'Result:'
+    Color = clBlack
+    ParentColor = False
   end
   object OpenDialogAnalyzeFile: TOpenDialog
     Left = 560
@@ -1192,7 +1198,6 @@ object FormMain: TFormMain
     Top = 576
     object MenuItemRootFile: TMenuItem
       Caption = 'File'
-      OnClick = MenuItemRootFileClick
       object MenuItemFileOpenFile: TMenuItem
         Caption = 'Open File...'
         OnClick = MenuItemFileOpenFileClick

@@ -1160,6 +1160,7 @@ object FormMain: TFormMain
     Top = 10
     Width = 94
     Caption = 'Current File:'
+    ParentColor = False
   end
   object LabelOptions: TLabel
     Left = 10
@@ -1167,6 +1168,7 @@ object FormMain: TFormMain
     Top = 80
     Width = 65
     Caption = 'Options:'
+    ParentColor = False
   end
   object LabelResult: TLabel
     Left = 10
@@ -1174,6 +1176,7 @@ object FormMain: TFormMain
     Top = 150
     Width = 51
     Caption = 'Result:'
+    ParentColor = False
   end
   object OpenDialogAnalyzeFile: TOpenDialog
     Left = 560

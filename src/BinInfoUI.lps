@@ -9,7 +9,7 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="bininfoui"/>
         <EditorIndex Value="3"/>
-        <CursorPos Y="28"/>
+        <CursorPos X="16" Y="11"/>
         <UsageCount Value="27"/>
         <Loaded Value="True"/>
       </Unit>
@@ -19,7 +19,6 @@
         <ComponentName Value="FormMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <TopLine Value="10"/>
         <CursorPos Y="46"/>
         <UsageCount Value="23"/>
@@ -42,6 +41,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="FormAbout"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="4" Y="28"/>
         <UsageCount Value="21"/>
@@ -57,14 +57,6 @@
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="FormMain.pas"/>
-        <Caret Line="45" Column="28" TopLine="45"/>
-      </Position>
-      <Position>
-        <Filename Value="FormMain.pas"/>
-        <Caret Line="46" Column="28" TopLine="46"/>
-      </Position>
       <Position>
         <Filename Value="FormMain.pas"/>
         <Caret Line="45" Column="28" TopLine="45"/>
@@ -176,6 +168,14 @@
       <Position>
         <Filename Value="FormMain.pas"/>
         <Caret Line="241" Column="34" TopLine="183"/>
+      </Position>
+      <Position>
+        <Filename Value="formabout.pas"/>
+        <Caret Line="28" Column="4"/>
+      </Position>
+      <Position>
+        <Filename Value="FormMain.pas"/>
+        <Caret Line="46" TopLine="10"/>
       </Position>
     </JumpHistory>
     <RunParams>

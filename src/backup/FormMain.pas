@@ -43,7 +43,6 @@ type
     function GetIncImports(): Boolean;
     function GetIncSections(): Boolean;
     procedure MenuItemFileOpenFileClick(Sender: TObject);
-    procedure MenuItemRootFileClick(Sender: TObject);
   private
 
   public

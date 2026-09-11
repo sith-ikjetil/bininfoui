@@ -4,10 +4,9 @@ object FormAbout: TFormAbout
   Top = 30
   Width = 581
   BorderStyle = bsSingle
-  Caption = 'FormAbout'
+  Caption = 'About bininfoui'
   ClientHeight = 562
   ClientWidth = 581
-  Color = clWhite
   DesignTimePPI = 120
   FormStyle = fsStayOnTop
   LCLVersion = '4.8.0.0'
@@ -37004,7 +37003,7 @@ object FormAbout: TFormAbout
     Height = 23
     Top = 380
     Width = 100
-    Caption = 'Version 1.6.0'
+    Caption = 'Version 1.6.2'
   end
   object LabelInfo: TLabel
     Left = 146
